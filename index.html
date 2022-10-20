@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Weather</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    
+    
+  </head>
+
+  <body>
+    <main>
+      <section class="todayweather">
+        <div class="searchbar">
+          <i class="material-symbols-rounded icon">travel_explore</i>
+          <input
+            type="text"
+            id="search"
+            class="search"
+            
+            placeholder="Search for Places..."
+          />
+
+          <button type="button" class="searchbtn" onclick="searchcity()" >
+
+                    </button>
+        </div>
+
+        <div class="current_data">
+          <img src="" alt="" class="icon1" />
+          <div class="temperature">
+            <span id="current_temp" class="temp">51</span>
+            <span> &deg C</span>
+          </div>
+          <div class="date-time">
+            <span id="currentdate">01</span>
+            <span id="currentday">Monday ,</span>
+            <span id="currenttime">00:00</span>
+          </div>
+          <div class="today_description">
+            <span>
+              <img src="" alt="" class="mini-icon" />
+            </span>
+            <span class="description"> </span>
+          </div>
+          <div class="today_humidity">
+            <img src="icons/humidity.svg" class="humidity-icon" alt="humidity" />
+            <span class="humidity"></span>
+          </div>
+
+          <div class="location">
+            <span class="city">weather in TN </span>
+            <span class="country"> In</span>
+          </div>
+        </div>
+      </section>
+      <section class="weeklyweather">
+        
+        
+      </section>
+      
+      <section class="highlights">
+        <div>
+          Today's Highlights
+        </div>
+        <div class="card">
+          <div class="card-title">Sunrise & Sunset</div>
+        <div class="suntime">
+          
+          <div>
+            <img src="icons/sunrise.svg" class="sunriseset">
+          <div class="sunrise"></div>
+          </div>
+          <div>
+            <img src="icons/sunset.svg" class="sunriseset">
+            <div class="sunset"></div>
+          </div>
+
+        
+        </div>
+        </div>
+        
+        
+      </section>
+    </main>
+  
+  </body>
+</html>
